@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+    <!-- XML character entity reference -->
+    <text>Some &lt;quoted&gt; text.</text>
+
+    <!-- trim spaces -->
+    <text> Some  text </text>
+
+    <!-- space preserve -->
+    <text xml:space="preserve"> Some  text </text>
+    <text xml:space="preserve">
+        Some text
+    </text>
+
+    <!-- nested space preserve -->
+    <text xml:space="preserve">
+        One <span xml:space="default"> two </span> three
+    </text>
+
+    <!-- HTML character entity reference -->
+    <text>&micro;</text>
+</root>

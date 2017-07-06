@@ -1,0 +1,15 @@
+[package]
+name = "choose-your-xml"
+version = "0.1.0"
+authors = ["Reizner Evgeniy <razrfalcon@gmail.com>"]
+
+[dev-dependencies]
+bencher = "0.1"
+xml-rs = "0.6.0"
+quick-xml = "0.8.0"
+xml5ever = "0.8.0"
+sxd-document = "0.2.2"
+
+[[bench]]
+name = "xml"
+harness = false
