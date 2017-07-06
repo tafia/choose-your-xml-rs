@@ -25,16 +25,16 @@
 | ----------------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
 | [Document type definition]    | No               | No               | [Partial][1:3]   | Partial          |
 | Namespaces                    | Yes              | Yes              | ?                | Yes              |
-| `xml:space`                   | No               | No               | No               | No               |
 | [Numeric character reference] | Yes              | Yes              | Yes              | Yes              |
 | [XML entity reference]        | Yes              | Yes              | Yes              | Yes              |
 | [HTML entity reference]       | No               | No               | Yes              | No               |
 | [DTD entity reference]        | No               | No               | No               | No               |
+| `xml:space`                   | No               | No               | No               | No               |
 | Non UTF-8 input               | No               | No               | No               | No               |
 | [XPath]                       | No               | No               | No               | [Yes][7:4]       |
 | [XQuery]                      | No               | No               | No               | No               |
 | Event parser                  | Yes              | Yes              | Yes              | No               |
-| Push parsing                  | No               | No               | Yes              | No               |
+| Push parser                   | No               | No               | Yes              | No               |
 | Error recovery                | No               | No               | Partial          | No               |
 | DOM                           | No               | No               | [Yes][11:3]      | Yes              |
 | Writing                       | Yes              | Yes              | Yes              | Yes              |
